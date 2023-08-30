@@ -31,7 +31,7 @@
 <p>To set up the project locally, follow these steps:</p>
 
 <ol>
-    <li>Clone the repository: <code>git clone https://github.com/Arif-Uz-Zaman/Orange-HRM-Full-Automation.git</code></li>
+    <li>Clone the repository: <code>git clone https://github.com/Arif-Uz-Zaman/Orange-HRM-Automation.git</code></li>
     <li>Install the necessary dependencies, including Selenium and TestNG.</li>
     <li>Download the appropriate WebDriver (e.g., ChromeDriver) and make sure it's accessible from your system's PATH.</li>
     <li>Update the configuration file with your test environment details, such as URLs and credentials.</li>
@@ -116,7 +116,7 @@
 <p>To run the tests, use the following steps:</p>
 
 <ol>
-    <li>Navigate to the project directory: <code>cd Orange-HRM-Full-Automation</code></li>
+    <li>Navigate to the project directory: <code>cd Orange-HRM-Automation</code></li>
     <li>Run the tests using your preferred build tool (e.g., TestNG) .</li>
 </ol>
 
