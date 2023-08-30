@@ -39,7 +39,7 @@
 
 <h2 id="features">Features</h2>
 
-<p>The project currently includes automated tests for the <strong>Login Page</strong> of the Orange HRM website. It covers scenarios like:</p>
+<p>The project currently includes automated tests for the <strong>Login Page</strong> and <strong>Home/Dashboard Page</strong> of the Orange HRM website.For Login page it covers scenarios like:</p>
 
 <ul>
     <li><strong>Verify log in with valid username and valid password:</strong> This test ensures that a user can successfully log in using a valid username and password combination.</li>
