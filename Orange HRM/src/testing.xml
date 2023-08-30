@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Complete suite">
+	
+  <listeners>
+	<listener class-name="com.test.ExtentReporterNG"></listener>	
+  </listeners>	
+  <test  name="Login and Home page test" verbose="2">
+    <classes>
+      <class name="com.test.LoginTestNG"/>
+      <class name="com.test.DashBoardPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            

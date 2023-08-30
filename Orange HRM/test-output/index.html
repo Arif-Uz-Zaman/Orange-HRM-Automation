@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Complete_suite" class="navigator-link">
+              <span class="suite-name border-failed">Complete suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Complete_suite" class="navigator-link ">
+                    <span>C:\Users\shobo\eclipse-workspace\Orange HRM\src\testing.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Complete_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Complete_suite" class="navigator-link ">
+                    <span>12 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Complete_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Complete_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Complete_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Complete_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">48 methods, 1 failed,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Complete_suite" class="hide-methods failed suite-Complete_suite"> (hide)</a> <!-- hide-methods failed suite-Complete_suite -->
+                      <a href="#" panel-name="suite-Complete_suite" class="show-methods failed suite-Complete_suite"> (show)</a> <!-- show-methods failed suite-Complete_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Complete_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_SearchBar_Functionality_in_Sidepanel_While_Toggled">test_SearchBar_Functionality_in_Sidepanel_While_Toggled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Complete_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Complete_suite" class="hide-methods passed suite-Complete_suite"> (hide)</a> <!-- hide-methods passed suite-Complete_suite -->
+                      <a href="#" panel-name="suite-Complete_suite" class="show-methods passed suite-Complete_suite"> (show)</a> <!-- show-methods passed suite-Complete_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Complete_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testAlertMessage_InvalidPassword">testAlertMessage_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testAlertMessage_InvalidUsername">testAlertMessage_InvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testEnterKeyAsLogin">testEnterKeyAsLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testForgotPasswordRedirect">testForgotPasswordRedirect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testLogin_EmptyPassword">testLogin_EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testLogin_EmptyUsername">testLogin_EmptyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testLogin_EmptyUsername_And_Password">testLogin_EmptyUsername_And_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Admin_MenuItem_Functionality">test_Admin_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Apply_Leave_IconFunctionality">test_Apply_Leave_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Apply_Leave_IconVisibility_In_QuickLaunchBoard">test_Apply_Leave_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Assign_Leave_IconFunctionality">test_Assign_Leave_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Assign_Leave_IconVisibility_In_QuickLaunchBoard">test_Assign_Leave_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Buzz_Latest_Posts_BoardVisibility">test_Buzz_Latest_Posts_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Buzz_MenuItem_Functionality">test_Buzz_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Claim_MenuItem_Functionality">test_Claim_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_DashboardNavigation">test_DashboardNavigation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Directory_MenuItem_Functionality">test_Directory_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Employee_Distribution_by_Location_BoardVisibility">test_Employee_Distribution_by_Location_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Employee_Distribution_by_Sub_Unit_BoardVisibility">test_Employee_Distribution_by_Sub_Unit_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Employees_on_Leave_Today_BoardVisibility">test_Employees_on_Leave_Today_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Leave_List_IconFunctionality">test_Leave_List_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Leave_List_IconVisibility_In_QuickLaunchBoard">test_Leave_List_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Leave_MenuItem_Functionality">test_Leave_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Maintenance_MenuItem_Functionality">test_Maintenance_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Actions_BoardVisibility">test_My_Actions_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Info_MenuItem_Functionality">test_My_Info_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Leave_IconFunctionality">test_My_Leave_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Leave_IconVisibility_In_QuickLaunchBoard">test_My_Leave_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Timesheet_IconFunctionality">test_My_Timesheet_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_My_Timesheet_IconVisibility_In_QuickLaunchBoard">test_My_Timesheet_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_PIM_MenuItem_Functionality">test_PIM_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Performance_MenuItem_Functionality">test_Performance_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board">test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board">test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Quick_Launch_BoardVisibility">test_Quick_Launch_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Recruitment_MenuItem_Functionality">test_Recruitment_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_SearchBar_Functionality_in_Sidepanel">test_SearchBar_Functionality_in_Sidepanel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Stopwatch_IconRedirection">test_Stopwatch_IconRedirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Time_MenuItem_Functionality">test_Time_MenuItem_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Time_at_Work_BoardVisibility">test_Time_at_Work_BoardVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Timesheets_IconFunctionality">test_Timesheets_IconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_Timesheets_IconVisibility_In_QuickLaunchBoard">test_Timesheets_IconVisibility_In_QuickLaunchBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.DashBoardPageTest" class="method navigator-link" hash-for-method="test_ToggleBar_Functionality">test_ToggleBar_Functionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testlogin_InvalidUsername_And_InvalidPassword">testlogin_InvalidUsername_And_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testlogin_InvalidUsername_And_ValidPassword">testlogin_InvalidUsername_And_ValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Complete_suite" title="com.test.LoginTestNG" class="method navigator-link" hash-for-method="testlogin_ValidUsername_And_InvalidPassword">testlogin_ValidUsername_And_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Complete_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Complete_suite" class="panel Complete_suite">
+          <div class="suite-Complete_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.test.DashBoardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SearchBar_Functionality_in_Sidepanel_While_Toggled">
+                  </a> <!-- test_SearchBar_Functionality_in_Sidepanel_While_Toggled -->
+                  <span class="method-name">test_SearchBar_Functionality_in_Sidepanel_While_Toggled</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.111)
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d127f8c014117242f65dd23327dd4345, sendKeysToElement {id=4B75EC86323118995913C162F4FBE818_element_684, value=[Ljava.lang.CharSequence;@40d96578}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\shobo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53272/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d127f8c014117242f65dd23327dd4345)] -&gt; xpath: //*[@id=&quot;app&quot;]/div[1]/div[1]/aside/nav/div[2]/div/div]
+Session ID: d127f8c014117242f65dd23327dd4345
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at com.test.DashBoardPageTest.test_SearchBar_Functionality_in_Sidepanel_While_Toggled(DashBoardPageTest.java:765)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Complete_suite-class-failed -->
+          <div class="suite-Complete_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.LoginTestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAlertMessage_InvalidPassword">
+                  </a> <!-- testAlertMessage_InvalidPassword -->
+                  <span class="method-name">testAlertMessage_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAlertMessage_InvalidUsername">
+                  </a> <!-- testAlertMessage_InvalidUsername -->
+                  <span class="method-name">testAlertMessage_InvalidUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnterKeyAsLogin">
+                  </a> <!-- testEnterKeyAsLogin -->
+                  <span class="method-name">testEnterKeyAsLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPasswordRedirect">
+                  </a> <!-- testForgotPasswordRedirect -->
+                  <span class="method-name">testForgotPasswordRedirect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin_EmptyPassword">
+                  </a> <!-- testLogin_EmptyPassword -->
+                  <span class="method-name">testLogin_EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin_EmptyUsername">
+                  </a> <!-- testLogin_EmptyUsername -->
+                  <span class="method-name">testLogin_EmptyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin_EmptyUsername_And_Password">
+                  </a> <!-- testLogin_EmptyUsername_And_Password -->
+                  <span class="method-name">testLogin_EmptyUsername_And_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testlogin_InvalidUsername_And_InvalidPassword">
+                  </a> <!-- testlogin_InvalidUsername_And_InvalidPassword -->
+                  <span class="method-name">testlogin_InvalidUsername_And_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testlogin_InvalidUsername_And_ValidPassword">
+                  </a> <!-- testlogin_InvalidUsername_And_ValidPassword -->
+                  <span class="method-name">testlogin_InvalidUsername_And_ValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testlogin_ValidUsername_And_InvalidPassword">
+                  </a> <!-- testlogin_ValidUsername_And_InvalidPassword -->
+                  <span class="method-name">testlogin_ValidUsername_And_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Complete_suite-class-passed -->
+          <div class="suite-Complete_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.DashBoardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Admin_MenuItem_Functionality">
+                  </a> <!-- test_Admin_MenuItem_Functionality -->
+                  <span class="method-name">test_Admin_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Apply_Leave_IconFunctionality">
+                  </a> <!-- test_Apply_Leave_IconFunctionality -->
+                  <span class="method-name">test_Apply_Leave_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Apply_Leave_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_Apply_Leave_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_Apply_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Assign_Leave_IconFunctionality">
+                  </a> <!-- test_Assign_Leave_IconFunctionality -->
+                  <span class="method-name">test_Assign_Leave_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Assign_Leave_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_Assign_Leave_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_Assign_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Buzz_Latest_Posts_BoardVisibility">
+                  </a> <!-- test_Buzz_Latest_Posts_BoardVisibility -->
+                  <span class="method-name">test_Buzz_Latest_Posts_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Buzz_MenuItem_Functionality">
+                  </a> <!-- test_Buzz_MenuItem_Functionality -->
+                  <span class="method-name">test_Buzz_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Claim_MenuItem_Functionality">
+                  </a> <!-- test_Claim_MenuItem_Functionality -->
+                  <span class="method-name">test_Claim_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_DashboardNavigation">
+                  </a> <!-- test_DashboardNavigation -->
+                  <span class="method-name">test_DashboardNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Directory_MenuItem_Functionality">
+                  </a> <!-- test_Directory_MenuItem_Functionality -->
+                  <span class="method-name">test_Directory_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Employee_Distribution_by_Location_BoardVisibility">
+                  </a> <!-- test_Employee_Distribution_by_Location_BoardVisibility -->
+                  <span class="method-name">test_Employee_Distribution_by_Location_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Employee_Distribution_by_Sub_Unit_BoardVisibility">
+                  </a> <!-- test_Employee_Distribution_by_Sub_Unit_BoardVisibility -->
+                  <span class="method-name">test_Employee_Distribution_by_Sub_Unit_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Employees_on_Leave_Today_BoardVisibility">
+                  </a> <!-- test_Employees_on_Leave_Today_BoardVisibility -->
+                  <span class="method-name">test_Employees_on_Leave_Today_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Leave_List_IconFunctionality">
+                  </a> <!-- test_Leave_List_IconFunctionality -->
+                  <span class="method-name">test_Leave_List_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Leave_List_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_Leave_List_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_Leave_List_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Leave_MenuItem_Functionality">
+                  </a> <!-- test_Leave_MenuItem_Functionality -->
+                  <span class="method-name">test_Leave_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Maintenance_MenuItem_Functionality">
+                  </a> <!-- test_Maintenance_MenuItem_Functionality -->
+                  <span class="method-name">test_Maintenance_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Actions_BoardVisibility">
+                  </a> <!-- test_My_Actions_BoardVisibility -->
+                  <span class="method-name">test_My_Actions_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Info_MenuItem_Functionality">
+                  </a> <!-- test_My_Info_MenuItem_Functionality -->
+                  <span class="method-name">test_My_Info_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Leave_IconFunctionality">
+                  </a> <!-- test_My_Leave_IconFunctionality -->
+                  <span class="method-name">test_My_Leave_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Leave_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_My_Leave_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_My_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Timesheet_IconFunctionality">
+                  </a> <!-- test_My_Timesheet_IconFunctionality -->
+                  <span class="method-name">test_My_Timesheet_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_My_Timesheet_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_My_Timesheet_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_My_Timesheet_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_PIM_MenuItem_Functionality">
+                  </a> <!-- test_PIM_MenuItem_Functionality -->
+                  <span class="method-name">test_PIM_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Performance_MenuItem_Functionality">
+                  </a> <!-- test_Performance_MenuItem_Functionality -->
+                  <span class="method-name">test_Performance_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board">
+                  </a> <!-- test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board -->
+                  <span class="method-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board">
+                  </a> <!-- test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board -->
+                  <span class="method-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Quick_Launch_BoardVisibility">
+                  </a> <!-- test_Quick_Launch_BoardVisibility -->
+                  <span class="method-name">test_Quick_Launch_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Recruitment_MenuItem_Functionality">
+                  </a> <!-- test_Recruitment_MenuItem_Functionality -->
+                  <span class="method-name">test_Recruitment_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_SearchBar_Functionality_in_Sidepanel">
+                  </a> <!-- test_SearchBar_Functionality_in_Sidepanel -->
+                  <span class="method-name">test_SearchBar_Functionality_in_Sidepanel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Stopwatch_IconRedirection">
+                  </a> <!-- test_Stopwatch_IconRedirection -->
+                  <span class="method-name">test_Stopwatch_IconRedirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Time_MenuItem_Functionality">
+                  </a> <!-- test_Time_MenuItem_Functionality -->
+                  <span class="method-name">test_Time_MenuItem_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Time_at_Work_BoardVisibility">
+                  </a> <!-- test_Time_at_Work_BoardVisibility -->
+                  <span class="method-name">test_Time_at_Work_BoardVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Timesheets_IconFunctionality">
+                  </a> <!-- test_Timesheets_IconFunctionality -->
+                  <span class="method-name">test_Timesheets_IconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Timesheets_IconVisibility_In_QuickLaunchBoard">
+                  </a> <!-- test_Timesheets_IconVisibility_In_QuickLaunchBoard -->
+                  <span class="method-name">test_Timesheets_IconVisibility_In_QuickLaunchBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ToggleBar_Functionality">
+                  </a> <!-- test_ToggleBar_Functionality -->
+                  <span class="method-name">test_ToggleBar_Functionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Complete_suite-class-passed -->
+        </div> <!-- panel Complete_suite -->
+        <div panel-name="test-xml-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shobo\eclipse-workspace\Orange HRM\src\testing.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Complete suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.test.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login and Home page test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.LoginTestNG&quot;/&gt;
+      &lt;class name=&quot;com.test.DashBoardPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login and Home page test --&gt;
+&lt;/suite&gt; &lt;!-- Complete suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Complete suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login and Home page test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Complete suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Aleart Message</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAlertMessage_InvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAlertMessage_InvalidUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Alternative of Login button</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testEnterKeyAsLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Board Visibility</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Buzz_Latest_Posts_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Employee_Distribution_by_Location_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Employee_Distribution_by_Sub_Unit_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Employees_on_Leave_Today_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Actions_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Quick_Launch_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Time_at_Work_BoardVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Icon Functionality</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Apply_Leave_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Assign_Leave_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Leave_List_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Leave_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Timesheet_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Stopwatch_IconRedirection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Timesheets_IconFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Icon Visibility</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Apply_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Assign_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Leave_List_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Timesheet_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Timesheets_IconVisibility_In_QuickLaunchBoard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Invalid Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin_EmptyPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin_EmptyUsername</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogin_EmptyUsername_And_Password</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testlogin_InvalidUsername_And_InvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testlogin_InvalidUsername_And_ValidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testlogin_ValidUsername_And_InvalidPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Menu Item in Sidepanel</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Admin_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Buzz_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Claim_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Directory_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Leave_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Maintenance_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_My_Info_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_PIM_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Performance_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Recruitment_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_SearchBar_Functionality_in_Sidepanel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_SearchBar_Functionality_in_Sidepanel_While_Toggled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_Time_MenuItem_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Page Tiitle</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_DashboardNavigation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Pie Chart Visibility</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Redirect Links</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testForgotPasswordRedirect</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Toggle bar</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">test_ToggleBar_Functionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Valid Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testValidLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Complete suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Complete_suite');
+function tableData_Complete_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(48);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testValidLogin')
+data.setCell(0, 2, 'com.test.LoginTestNG')
+data.setCell(0, 3, 5925);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_PIM_MenuItem_Functionality')
+data.setCell(1, 2, 'com.test.DashBoardPageTest')
+data.setCell(1, 3, 4219);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_My_Info_MenuItem_Functionality')
+data.setCell(2, 2, 'com.test.DashBoardPageTest')
+data.setCell(2, 3, 3996);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testlogin_InvalidUsername_And_ValidPassword')
+data.setCell(3, 2, 'com.test.LoginTestNG')
+data.setCell(3, 3, 3924);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin_EmptyPassword')
+data.setCell(4, 2, 'com.test.LoginTestNG')
+data.setCell(4, 3, 3867);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testlogin_ValidUsername_And_InvalidPassword')
+data.setCell(5, 2, 'com.test.LoginTestNG')
+data.setCell(5, 3, 3853);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAlertMessage_InvalidPassword')
+data.setCell(6, 2, 'com.test.LoginTestNG')
+data.setCell(6, 3, 3838);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAlertMessage_InvalidUsername')
+data.setCell(7, 2, 'com.test.LoginTestNG')
+data.setCell(7, 3, 3827);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLogin_EmptyUsername')
+data.setCell(8, 2, 'com.test.LoginTestNG')
+data.setCell(8, 3, 3812);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testlogin_InvalidUsername_And_InvalidPassword')
+data.setCell(9, 2, 'com.test.LoginTestNG')
+data.setCell(9, 3, 3811);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLogin_EmptyUsername_And_Password')
+data.setCell(10, 2, 'com.test.LoginTestNG')
+data.setCell(10, 3, 3762);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_Recruitment_MenuItem_Functionality')
+data.setCell(11, 2, 'com.test.DashBoardPageTest')
+data.setCell(11, 3, 3650);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_Leave_MenuItem_Functionality')
+data.setCell(12, 2, 'com.test.DashBoardPageTest')
+data.setCell(12, 3, 3408);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_Performance_MenuItem_Functionality')
+data.setCell(13, 2, 'com.test.DashBoardPageTest')
+data.setCell(13, 3, 3285);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_Time_MenuItem_Functionality')
+data.setCell(14, 2, 'com.test.DashBoardPageTest')
+data.setCell(14, 3, 3086);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_Admin_MenuItem_Functionality')
+data.setCell(15, 2, 'com.test.DashBoardPageTest')
+data.setCell(15, 3, 2717);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_Directory_MenuItem_Functionality')
+data.setCell(16, 2, 'com.test.DashBoardPageTest')
+data.setCell(16, 3, 2645);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_Buzz_MenuItem_Functionality')
+data.setCell(17, 2, 'com.test.DashBoardPageTest')
+data.setCell(17, 3, 2590);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_Stopwatch_IconRedirection')
+data.setCell(18, 2, 'com.test.DashBoardPageTest')
+data.setCell(18, 3, 2426);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_Claim_MenuItem_Functionality')
+data.setCell(19, 2, 'com.test.DashBoardPageTest')
+data.setCell(19, 3, 2409);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_My_Leave_IconFunctionality')
+data.setCell(20, 2, 'com.test.DashBoardPageTest')
+data.setCell(20, 3, 2171);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_Apply_Leave_IconFunctionality')
+data.setCell(21, 2, 'com.test.DashBoardPageTest')
+data.setCell(21, 3, 2072);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_Assign_Leave_IconFunctionality')
+data.setCell(22, 2, 'com.test.DashBoardPageTest')
+data.setCell(22, 3, 1998);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_Maintenance_MenuItem_Functionality')
+data.setCell(23, 2, 'com.test.DashBoardPageTest')
+data.setCell(23, 3, 1933);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_Leave_List_IconFunctionality')
+data.setCell(24, 2, 'com.test.DashBoardPageTest')
+data.setCell(24, 3, 1865);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test_Timesheets_IconFunctionality')
+data.setCell(25, 2, 'com.test.DashBoardPageTest')
+data.setCell(25, 3, 1806);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test_My_Timesheet_IconFunctionality')
+data.setCell(26, 2, 'com.test.DashBoardPageTest')
+data.setCell(26, 3, 1771);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test_Leave_List_IconVisibility_In_QuickLaunchBoard')
+data.setCell(27, 2, 'com.test.DashBoardPageTest')
+data.setCell(27, 3, 1704);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test_My_Leave_IconVisibility_In_QuickLaunchBoard')
+data.setCell(28, 2, 'com.test.DashBoardPageTest')
+data.setCell(28, 3, 1677);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test_Apply_Leave_IconVisibility_In_QuickLaunchBoard')
+data.setCell(29, 2, 'com.test.DashBoardPageTest')
+data.setCell(29, 3, 1671);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test_My_Timesheet_IconVisibility_In_QuickLaunchBoard')
+data.setCell(30, 2, 'com.test.DashBoardPageTest')
+data.setCell(30, 3, 1645);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test_Timesheets_IconVisibility_In_QuickLaunchBoard')
+data.setCell(31, 2, 'com.test.DashBoardPageTest')
+data.setCell(31, 3, 1139);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testForgotPasswordRedirect')
+data.setCell(32, 2, 'com.test.LoginTestNG')
+data.setCell(32, 3, 1125);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board')
+data.setCell(33, 2, 'com.test.DashBoardPageTest')
+data.setCell(33, 3, 1125);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test_SearchBar_Functionality_in_Sidepanel_While_Toggled')
+data.setCell(34, 2, 'com.test.DashBoardPageTest')
+data.setCell(34, 3, 802);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testEnterKeyAsLogin')
+data.setCell(35, 2, 'com.test.LoginTestNG')
+data.setCell(35, 3, 707);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test_Assign_Leave_IconVisibility_In_QuickLaunchBoard')
+data.setCell(36, 2, 'com.test.DashBoardPageTest')
+data.setCell(36, 3, 706);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test_Buzz_Latest_Posts_BoardVisibility')
+data.setCell(37, 2, 'com.test.DashBoardPageTest')
+data.setCell(37, 3, 627);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test_My_Actions_BoardVisibility')
+data.setCell(38, 2, 'com.test.DashBoardPageTest')
+data.setCell(38, 3, 559);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test_ToggleBar_Functionality')
+data.setCell(39, 2, 'com.test.DashBoardPageTest')
+data.setCell(39, 3, 204);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test_SearchBar_Functionality_in_Sidepanel')
+data.setCell(40, 2, 'com.test.DashBoardPageTest')
+data.setCell(40, 3, 152);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board')
+data.setCell(41, 2, 'com.test.DashBoardPageTest')
+data.setCell(41, 3, 51);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'test_Quick_Launch_BoardVisibility')
+data.setCell(42, 2, 'com.test.DashBoardPageTest')
+data.setCell(42, 3, 43);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test_Employee_Distribution_by_Location_BoardVisibility')
+data.setCell(43, 2, 'com.test.DashBoardPageTest')
+data.setCell(43, 3, 37);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'test_DashboardNavigation')
+data.setCell(44, 2, 'com.test.DashBoardPageTest')
+data.setCell(44, 3, 32);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test_Employees_on_Leave_Today_BoardVisibility')
+data.setCell(45, 2, 'com.test.DashBoardPageTest')
+data.setCell(45, 3, 32);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'test_Time_at_Work_BoardVisibility')
+data.setCell(46, 2, 'com.test.DashBoardPageTest')
+data.setCell(46, 3, 31);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'test_Employee_Distribution_by_Sub_Unit_BoardVisibility')
+data.setCell(47, 2, 'com.test.DashBoardPageTest')
+data.setCell(47, 3, 26);
+window.suiteTableData['Complete_suite']= { tableData: data, tableDiv: 'times-div-Complete_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Complete_suite">
+              </div> <!-- times-div-Complete_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Complete suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Complete_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.LoginTestNG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">3915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">21047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">26984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testlogin_InvalidUsername_And_ValidPassword</span>
+                <span class="method-start">28826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">32755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testlogin_InvalidUsername_And_InvalidPassword</span>
+                <span class="method-start">33221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">37035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testlogin_ValidUsername_And_InvalidPassword</span>
+                <span class="method-start">39781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">43635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogin_EmptyPassword</span>
+                <span class="method-start">44071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">47940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogin_EmptyUsername</span>
+                <span class="method-start">48411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">52225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogin_EmptyUsername_And_Password</span>
+                <span class="method-start">52660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">56424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAlertMessage_InvalidUsername</span>
+                <span class="method-start">56894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">60723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAlertMessage_InvalidPassword</span>
+                <span class="method-start">61198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">65042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEnterKeyAsLogin</span>
+                <span class="method-start">65516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">gotologinpage</span>
+                <span class="method-start">66225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPasswordRedirect</span>
+                <span class="method-start">66641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67773 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.DashBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67993 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_DashboardNavigation</span>
+                <span class="method-start">85340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Time_at_Work_BoardVisibility</span>
+                <span class="method-start">85376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Stopwatch_IconRedirection</span>
+                <span class="method-start">85410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Actions_BoardVisibility</span>
+                <span class="method-start">87841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Quick_Launch_BoardVisibility</span>
+                <span class="method-start">88402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Assign_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">88447 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Assign_Leave_IconFunctionality</span>
+                <span class="method-start">89154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Leave_List_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">91156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Leave_List_IconFunctionality</span>
+                <span class="method-start">92862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Timesheets_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">94729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Timesheets_IconFunctionality</span>
+                <span class="method-start">95871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Apply_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">97679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Apply_Leave_IconFunctionality</span>
+                <span class="method-start">99351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Leave_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">101429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Leave_IconFunctionality</span>
+                <span class="method-start">103108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Timesheet_IconVisibility_In_QuickLaunchBoard</span>
+                <span class="method-start">105280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Timesheet_IconFunctionality</span>
+                <span class="method-start">106926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Buzz_Latest_Posts_BoardVisibility</span>
+                <span class="method-start">108704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Employees_on_Leave_Today_BoardVisibility</span>
+                <span class="method-start">109334 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Employee_Distribution_by_Sub_Unit_BoardVisibility</span>
+                <span class="method-start">109367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board</span>
+                <span class="method-start">109395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Employee_Distribution_by_Location_BoardVisibility</span>
+                <span class="method-start">110522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board</span>
+                <span class="method-start">110561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_ToggleBar_Functionality</span>
+                <span class="method-start">110615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_SearchBar_Functionality_in_Sidepanel</span>
+                <span class="method-start">110821 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Admin_MenuItem_Functionality</span>
+                <span class="method-start">110974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_PIM_MenuItem_Functionality</span>
+                <span class="method-start">113695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Leave_MenuItem_Functionality</span>
+                <span class="method-start">117934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Time_MenuItem_Functionality</span>
+                <span class="method-start">121345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Recruitment_MenuItem_Functionality</span>
+                <span class="method-start">124432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_My_Info_MenuItem_Functionality</span>
+                <span class="method-start">128085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Performance_MenuItem_Functionality</span>
+                <span class="method-start">132084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Directory_MenuItem_Functionality</span>
+                <span class="method-start">135370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Maintenance_MenuItem_Functionality</span>
+                <span class="method-start">138016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Claim_MenuItem_Functionality</span>
+                <span class="method-start">139950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_Buzz_MenuItem_Functionality</span>
+                <span class="method-start">142364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_SearchBar_Functionality_in_Sidepanel_While_Toggled</span>
+                <span class="method-start">144960 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145764 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="48" passed="47" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T17:38:15 BDT" name="Complete suite" finished-at="2023-08-30T17:40:42 BDT" duration-ms="146066">
+    <groups>
+      <group name="Icon Visibility">
+        <method signature="DashBoardPageTest.test_Assign_Leave_IconVisibility_In_QuickLaunchBoard()[pri:7, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Assign_Leave_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Leave_List_IconVisibility_In_QuickLaunchBoard()[pri:9, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Leave_List_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Timesheets_IconVisibility_In_QuickLaunchBoard()[pri:11, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Timesheets_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Apply_Leave_IconVisibility_In_QuickLaunchBoard()[pri:13, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Apply_Leave_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Leave_IconVisibility_In_QuickLaunchBoard()[pri:14, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Leave_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Timesheet_IconVisibility_In_QuickLaunchBoard()[pri:16, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Timesheet_IconVisibility_In_QuickLaunchBoard" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Icon Visibility -->
+      <group name="Redirect Links">
+        <method signature="LoginTestNG.testForgotPasswordRedirect()[pri:11, instance:com.test.LoginTestNG@5c7bfdc1]" name="testForgotPasswordRedirect" class="com.test.LoginTestNG"/>
+      </group> <!-- Redirect Links -->
+      <group name="Alternative of Login button">
+        <method signature="LoginTestNG.testEnterKeyAsLogin()[pri:10, instance:com.test.LoginTestNG@5c7bfdc1]" name="testEnterKeyAsLogin" class="com.test.LoginTestNG"/>
+      </group> <!-- Alternative of Login button -->
+      <group name="Menu Item in Sidepanel">
+        <method signature="DashBoardPageTest.test_SearchBar_Functionality_in_Sidepanel()[pri:25, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_SearchBar_Functionality_in_Sidepanel" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Admin_MenuItem_Functionality()[pri:26, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Admin_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_PIM_MenuItem_Functionality()[pri:27, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_PIM_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Leave_MenuItem_Functionality()[pri:28, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Leave_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Time_MenuItem_Functionality()[pri:29, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Time_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Recruitment_MenuItem_Functionality()[pri:30, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Recruitment_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Info_MenuItem_Functionality()[pri:31, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Info_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Directory_MenuItem_Functionality()[pri:33, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Directory_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Maintenance_MenuItem_Functionality()[pri:34, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Maintenance_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Claim_MenuItem_Functionality()[pri:35, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Claim_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Buzz_MenuItem_Functionality()[pri:36, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Buzz_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_SearchBar_Functionality_in_Sidepanel_While_Toggled()[pri:37, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_SearchBar_Functionality_in_Sidepanel_While_Toggled" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Performance_MenuItem_Functionality()[pri:32, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Performance_MenuItem_Functionality" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Menu Item in Sidepanel -->
+      <group name="Aleart Message">
+        <method signature="LoginTestNG.testAlertMessage_InvalidUsername()[pri:8, instance:com.test.LoginTestNG@5c7bfdc1]" name="testAlertMessage_InvalidUsername" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testAlertMessage_InvalidPassword()[pri:9, instance:com.test.LoginTestNG@5c7bfdc1]" name="testAlertMessage_InvalidPassword" class="com.test.LoginTestNG"/>
+      </group> <!-- Aleart Message -->
+      <group name="Invalid Login">
+        <method signature="LoginTestNG.testlogin_InvalidUsername_And_ValidPassword()[pri:2, instance:com.test.LoginTestNG@5c7bfdc1]" name="testlogin_InvalidUsername_And_ValidPassword" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testlogin_InvalidUsername_And_InvalidPassword()[pri:3, instance:com.test.LoginTestNG@5c7bfdc1]" name="testlogin_InvalidUsername_And_InvalidPassword" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testlogin_ValidUsername_And_InvalidPassword()[pri:4, instance:com.test.LoginTestNG@5c7bfdc1]" name="testlogin_ValidUsername_And_InvalidPassword" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testLogin_EmptyPassword()[pri:5, instance:com.test.LoginTestNG@5c7bfdc1]" name="testLogin_EmptyPassword" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testLogin_EmptyUsername()[pri:6, instance:com.test.LoginTestNG@5c7bfdc1]" name="testLogin_EmptyUsername" class="com.test.LoginTestNG"/>
+        <method signature="LoginTestNG.testLogin_EmptyUsername_And_Password()[pri:7, instance:com.test.LoginTestNG@5c7bfdc1]" name="testLogin_EmptyUsername_And_Password" class="com.test.LoginTestNG"/>
+      </group> <!-- Invalid Login -->
+      <group name="Pie Chart Visibility">
+        <method signature="DashBoardPageTest.test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board()[pri:21, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board()[pri:23, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Pie Chart Visibility -->
+      <group name="Page Tiitle">
+        <method signature="DashBoardPageTest.test_DashboardNavigation()[pri:2, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_DashboardNavigation" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Page Tiitle -->
+      <group name="Valid Login">
+        <method signature="LoginTestNG.testValidLogin()[pri:1, instance:com.test.LoginTestNG@5c7bfdc1]" name="testValidLogin" class="com.test.LoginTestNG"/>
+      </group> <!-- Valid Login -->
+      <group name="Toggle bar">
+        <method signature="DashBoardPageTest.test_ToggleBar_Functionality()[pri:24, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_ToggleBar_Functionality" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Toggle bar -->
+      <group name="Icon Functionality">
+        <method signature="DashBoardPageTest.test_Stopwatch_IconRedirection()[pri:4, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Stopwatch_IconRedirection" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Assign_Leave_IconFunctionality()[pri:8, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Assign_Leave_IconFunctionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Leave_List_IconFunctionality()[pri:10, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Leave_List_IconFunctionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Timesheets_IconFunctionality()[pri:12, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Timesheets_IconFunctionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Apply_Leave_IconFunctionality()[pri:14, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Apply_Leave_IconFunctionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Leave_IconFunctionality()[pri:15, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Leave_IconFunctionality" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Timesheet_IconFunctionality()[pri:17, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Timesheet_IconFunctionality" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Icon Functionality -->
+      <group name="Board Visibility">
+        <method signature="DashBoardPageTest.test_Time_at_Work_BoardVisibility()[pri:3, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Time_at_Work_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_My_Actions_BoardVisibility()[pri:5, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_My_Actions_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Quick_Launch_BoardVisibility()[pri:6, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Quick_Launch_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Buzz_Latest_Posts_BoardVisibility()[pri:18, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Buzz_Latest_Posts_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Employees_on_Leave_Today_BoardVisibility()[pri:19, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Employees_on_Leave_Today_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Employee_Distribution_by_Sub_Unit_BoardVisibility()[pri:20, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Employee_Distribution_by_Sub_Unit_BoardVisibility" class="com.test.DashBoardPageTest"/>
+        <method signature="DashBoardPageTest.test_Employee_Distribution_by_Location_BoardVisibility()[pri:22, instance:com.test.DashBoardPageTest@6933b6c6]" name="test_Employee_Distribution_by_Location_BoardVisibility" class="com.test.DashBoardPageTest"/>
+      </group> <!-- Board Visibility -->
+    </groups>
+    <test started-at="2023-08-30T17:38:15 BDT" name="Login and Home page test" finished-at="2023-08-30T17:40:42 BDT" duration-ms="146066">
+      <class name="com.test.DashBoardPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:24 BDT" name="setup" finished-at="2023-08-30T17:39:41 BDT" duration-ms="17347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_DashboardNavigation()[pri:2, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:41 BDT" name="test_DashboardNavigation" finished-at="2023-08-30T17:39:41 BDT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DashboardNavigation -->
+        <test-method signature="test_Time_at_Work_BoardVisibility()[pri:3, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:41 BDT" name="test_Time_at_Work_BoardVisibility" finished-at="2023-08-30T17:39:41 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Time_at_Work_BoardVisibility -->
+        <test-method signature="test_Stopwatch_IconRedirection()[pri:4, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:41 BDT" name="test_Stopwatch_IconRedirection" finished-at="2023-08-30T17:39:43 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Time_at_Work_BoardVisibility" duration-ms="2426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Stopwatch_IconRedirection -->
+        <test-method signature="test_My_Actions_BoardVisibility()[pri:5, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:43 BDT" name="test_My_Actions_BoardVisibility" finished-at="2023-08-30T17:39:44 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Actions_BoardVisibility -->
+        <test-method signature="test_Quick_Launch_BoardVisibility()[pri:6, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:44 BDT" name="test_Quick_Launch_BoardVisibility" finished-at="2023-08-30T17:39:44 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Quick_Launch_BoardVisibility -->
+        <test-method signature="test_Assign_Leave_IconVisibility_In_QuickLaunchBoard()[pri:7, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:44 BDT" name="test_Assign_Leave_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:39:45 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Assign_Leave_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_Assign_Leave_IconFunctionality()[pri:8, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:45 BDT" name="test_Assign_Leave_IconFunctionality" finished-at="2023-08-30T17:39:47 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Assign_Leave_IconVisibility_In_QuickLaunchBoard" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Assign_Leave_IconFunctionality -->
+        <test-method signature="test_Leave_List_IconVisibility_In_QuickLaunchBoard()[pri:9, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:47 BDT" name="test_Leave_List_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:39:48 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Leave_List_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_Leave_List_IconFunctionality()[pri:10, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:48 BDT" name="test_Leave_List_IconFunctionality" finished-at="2023-08-30T17:39:50 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Leave_List_IconVisibility_In_QuickLaunchBoard" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Leave_List_IconFunctionality -->
+        <test-method signature="test_Timesheets_IconVisibility_In_QuickLaunchBoard()[pri:11, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:50 BDT" name="test_Timesheets_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:39:51 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Timesheets_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_Timesheets_IconFunctionality()[pri:12, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:51 BDT" name="test_Timesheets_IconFunctionality" finished-at="2023-08-30T17:39:53 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Timesheets_IconVisibility_In_QuickLaunchBoard" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Timesheets_IconFunctionality -->
+        <test-method signature="test_Apply_Leave_IconVisibility_In_QuickLaunchBoard()[pri:13, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:53 BDT" name="test_Apply_Leave_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:39:55 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="1671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Apply_Leave_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_Apply_Leave_IconFunctionality()[pri:14, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:55 BDT" name="test_Apply_Leave_IconFunctionality" finished-at="2023-08-30T17:39:57 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Apply_Leave_IconVisibility_In_QuickLaunchBoard" duration-ms="2072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Apply_Leave_IconFunctionality -->
+        <test-method signature="test_My_Leave_IconVisibility_In_QuickLaunchBoard()[pri:14, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:57 BDT" name="test_My_Leave_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:39:59 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Leave_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_My_Leave_IconFunctionality()[pri:15, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:39:59 BDT" name="test_My_Leave_IconFunctionality" finished-at="2023-08-30T17:40:01 BDT" depends-on-methods="com.test.DashBoardPageTest.test_My_Leave_IconVisibility_In_QuickLaunchBoard" duration-ms="2171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Leave_IconFunctionality -->
+        <test-method signature="test_My_Timesheet_IconVisibility_In_QuickLaunchBoard()[pri:16, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:01 BDT" name="test_My_Timesheet_IconVisibility_In_QuickLaunchBoard" finished-at="2023-08-30T17:40:02 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Quick_Launch_BoardVisibility" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Timesheet_IconVisibility_In_QuickLaunchBoard -->
+        <test-method signature="test_My_Timesheet_IconFunctionality()[pri:17, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:02 BDT" name="test_My_Timesheet_IconFunctionality" finished-at="2023-08-30T17:40:04 BDT" depends-on-methods="com.test.DashBoardPageTest.test_My_Timesheet_IconVisibility_In_QuickLaunchBoard" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Timesheet_IconFunctionality -->
+        <test-method signature="test_Buzz_Latest_Posts_BoardVisibility()[pri:18, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:04 BDT" name="test_Buzz_Latest_Posts_BoardVisibility" finished-at="2023-08-30T17:40:05 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Buzz_Latest_Posts_BoardVisibility -->
+        <test-method signature="test_Employees_on_Leave_Today_BoardVisibility()[pri:19, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:05 BDT" name="test_Employees_on_Leave_Today_BoardVisibility" finished-at="2023-08-30T17:40:05 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Employees_on_Leave_Today_BoardVisibility -->
+        <test-method signature="test_Employee_Distribution_by_Sub_Unit_BoardVisibility()[pri:20, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:05 BDT" name="test_Employee_Distribution_by_Sub_Unit_BoardVisibility" finished-at="2023-08-30T17:40:05 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Employee_Distribution_by_Sub_Unit_BoardVisibility -->
+        <test-method signature="test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board()[pri:21, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:05 BDT" name="test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board" finished-at="2023-08-30T17:40:06 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Employee_Distribution_by_Sub_Unit_BoardVisibility" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PieChart_Visibility_Within_Employee_Distribution_by_Sub_Unit_Board -->
+        <test-method signature="test_Employee_Distribution_by_Location_BoardVisibility()[pri:22, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:06 BDT" name="test_Employee_Distribution_by_Location_BoardVisibility" finished-at="2023-08-30T17:40:06 BDT" depends-on-methods="com.test.DashBoardPageTest.test_DashboardNavigation" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Employee_Distribution_by_Location_BoardVisibility -->
+        <test-method signature="test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board()[pri:23, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:06 BDT" name="test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board" finished-at="2023-08-30T17:40:06 BDT" depends-on-methods="com.test.DashBoardPageTest.test_Employee_Distribution_by_Location_BoardVisibility" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PieChart_Visibility_Within_Employee_Distribution_by_Location_Board -->
+        <test-method signature="test_ToggleBar_Functionality()[pri:24, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:06 BDT" name="test_ToggleBar_Functionality" finished-at="2023-08-30T17:40:06 BDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ToggleBar_Functionality -->
+        <test-method signature="test_SearchBar_Functionality_in_Sidepanel()[pri:25, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:06 BDT" name="test_SearchBar_Functionality_in_Sidepanel" finished-at="2023-08-30T17:40:07 BDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchBar_Functionality_in_Sidepanel -->
+        <test-method signature="test_Admin_MenuItem_Functionality()[pri:26, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:07 BDT" name="test_Admin_MenuItem_Functionality" finished-at="2023-08-30T17:40:09 BDT" duration-ms="2717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Admin_MenuItem_Functionality -->
+        <test-method signature="test_PIM_MenuItem_Functionality()[pri:27, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:09 BDT" name="test_PIM_MenuItem_Functionality" finished-at="2023-08-30T17:40:13 BDT" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PIM_MenuItem_Functionality -->
+        <test-method signature="test_Leave_MenuItem_Functionality()[pri:28, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:13 BDT" name="test_Leave_MenuItem_Functionality" finished-at="2023-08-30T17:40:17 BDT" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Leave_MenuItem_Functionality -->
+        <test-method signature="test_Time_MenuItem_Functionality()[pri:29, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:17 BDT" name="test_Time_MenuItem_Functionality" finished-at="2023-08-30T17:40:20 BDT" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Time_MenuItem_Functionality -->
+        <test-method signature="test_Recruitment_MenuItem_Functionality()[pri:30, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:20 BDT" name="test_Recruitment_MenuItem_Functionality" finished-at="2023-08-30T17:40:24 BDT" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Recruitment_MenuItem_Functionality -->
+        <test-method signature="test_My_Info_MenuItem_Functionality()[pri:31, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:24 BDT" name="test_My_Info_MenuItem_Functionality" finished-at="2023-08-30T17:40:28 BDT" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_My_Info_MenuItem_Functionality -->
+        <test-method signature="test_Performance_MenuItem_Functionality()[pri:32, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:28 BDT" name="test_Performance_MenuItem_Functionality" finished-at="2023-08-30T17:40:31 BDT" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Performance_MenuItem_Functionality -->
+        <test-method signature="test_Directory_MenuItem_Functionality()[pri:33, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:31 BDT" name="test_Directory_MenuItem_Functionality" finished-at="2023-08-30T17:40:34 BDT" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Directory_MenuItem_Functionality -->
+        <test-method signature="test_Maintenance_MenuItem_Functionality()[pri:34, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:34 BDT" name="test_Maintenance_MenuItem_Functionality" finished-at="2023-08-30T17:40:35 BDT" duration-ms="1933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Maintenance_MenuItem_Functionality -->
+        <test-method signature="test_Claim_MenuItem_Functionality()[pri:35, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:35 BDT" name="test_Claim_MenuItem_Functionality" finished-at="2023-08-30T17:40:38 BDT" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Claim_MenuItem_Functionality -->
+        <test-method signature="test_Buzz_MenuItem_Functionality()[pri:36, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:38 BDT" name="test_Buzz_MenuItem_Functionality" finished-at="2023-08-30T17:40:40 BDT" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Buzz_MenuItem_Functionality -->
+        <test-method signature="test_SearchBar_Functionality_in_Sidepanel_While_Toggled()[pri:37, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:40 BDT" name="test_SearchBar_Functionality_in_Sidepanel_While_Toggled" finished-at="2023-08-30T17:40:41 BDT" duration-ms="802" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d127f8c014117242f65dd23327dd4345, sendKeysToElement {id=4B75EC86323118995913C162F4FBE818_element_684, value=[Ljava.lang.CharSequence;@40d96578}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\shobo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53272/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d127f8c014117242f65dd23327dd4345)] -> xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/div/div]
+Session ID: d127f8c014117242f65dd23327dd4345]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d127f8c014117242f65dd23327dd4345, sendKeysToElement {id=4B75EC86323118995913C162F4FBE818_element_684, value=[Ljava.lang.CharSequence;@40d96578}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\shobo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53272}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53272/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d127f8c014117242f65dd23327dd4345)] -> xpath: //*[@id="app"]/div[1]/div[1]/aside/nav/div[2]/div/div]
+Session ID: d127f8c014117242f65dd23327dd4345
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+at com.test.DashBoardPageTest.test_SearchBar_Functionality_in_Sidepanel_While_Toggled(DashBoardPageTest.java:765)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SearchBar_Functionality_in_Sidepanel_While_Toggled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.DashBoardPageTest@6933b6c6]" started-at="2023-08-30T17:40:41 BDT" name="tearDown" finished-at="2023-08-30T17:40:42 BDT" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DashBoardPageTest -->
+      <class name="com.test.LoginTestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:16 BDT" name="setUp" finished-at="2023-08-30T17:38:19 BDT" duration-ms="3884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:19 BDT" name="gotologinpage" finished-at="2023-08-30T17:38:37 BDT" duration-ms="17132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testValidLogin()[pri:1, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:37 BDT" name="testValidLogin" finished-at="2023-08-30T17:38:43 BDT" duration-ms="5925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:43 BDT" name="gotologinpage" finished-at="2023-08-30T17:38:44 BDT" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testlogin_InvalidUsername_And_ValidPassword()[pri:2, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:44 BDT" name="testlogin_InvalidUsername_And_ValidPassword" finished-at="2023-08-30T17:38:48 BDT" duration-ms="3924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin_InvalidUsername_And_ValidPassword -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:48 BDT" name="gotologinpage" finished-at="2023-08-30T17:38:49 BDT" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testlogin_InvalidUsername_And_InvalidPassword()[pri:3, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:49 BDT" name="testlogin_InvalidUsername_And_InvalidPassword" finished-at="2023-08-30T17:38:53 BDT" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin_InvalidUsername_And_InvalidPassword -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:53 BDT" name="gotologinpage" finished-at="2023-08-30T17:38:55 BDT" duration-ms="2746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testlogin_ValidUsername_And_InvalidPassword()[pri:4, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:55 BDT" name="testlogin_ValidUsername_And_InvalidPassword" finished-at="2023-08-30T17:38:59 BDT" duration-ms="3853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin_ValidUsername_And_InvalidPassword -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:38:59 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:00 BDT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testLogin_EmptyPassword()[pri:5, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:00 BDT" name="testLogin_EmptyPassword" finished-at="2023-08-30T17:39:03 BDT" duration-ms="3867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_EmptyPassword -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:03 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:04 BDT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testLogin_EmptyUsername()[pri:6, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:04 BDT" name="testLogin_EmptyUsername" finished-at="2023-08-30T17:39:08 BDT" duration-ms="3812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_EmptyUsername -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:08 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:08 BDT" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testLogin_EmptyUsername_And_Password()[pri:7, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:08 BDT" name="testLogin_EmptyUsername_And_Password" finished-at="2023-08-30T17:39:12 BDT" duration-ms="3762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_EmptyUsername_And_Password -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:12 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:12 BDT" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testAlertMessage_InvalidUsername()[pri:8, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:12 BDT" name="testAlertMessage_InvalidUsername" finished-at="2023-08-30T17:39:16 BDT" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertMessage_InvalidUsername -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:16 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:17 BDT" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testAlertMessage_InvalidPassword()[pri:9, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:17 BDT" name="testAlertMessage_InvalidPassword" finished-at="2023-08-30T17:39:21 BDT" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAlertMessage_InvalidPassword -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:21 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:21 BDT" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testEnterKeyAsLogin()[pri:10, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:21 BDT" name="testEnterKeyAsLogin" finished-at="2023-08-30T17:39:22 BDT" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnterKeyAsLogin -->
+        <test-method is-config="true" signature="gotologinpage()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:22 BDT" name="gotologinpage" finished-at="2023-08-30T17:39:22 BDT" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotologinpage -->
+        <test-method signature="testForgotPasswordRedirect()[pri:11, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:22 BDT" name="testForgotPasswordRedirect" finished-at="2023-08-30T17:39:23 BDT" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordRedirect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LoginTestNG@5c7bfdc1]" started-at="2023-08-30T17:39:23 BDT" name="tearDown" finished-at="2023-08-30T17:39:24 BDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.LoginTestNG -->
+    </test> <!-- Login and Home page test -->
+  </suite> <!-- Complete suite -->
+</testng-results>
